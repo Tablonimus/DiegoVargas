@@ -1,6 +1,6 @@
 import React from "react";
 import logoEquipo from "../../assets/logos/logoEquipo.svg";
-import logoSuela from "../../assets/logos/logoSPnegro.svg";
+import logoSuela from "../../assets/logos/logoSuelaNav.svg";
 import logoFace from "../../assets/logo-redes/facebook.png";
 import instaScratch from "../../assets/logo-redes/instagramScratch.png";
 
