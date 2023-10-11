@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import logoEquipo from "../../assets/logos/logoEquipo.svg";
 import logoSuela from "../../assets/logos/logoSPnegro.svg";
 import logoFace from "../../assets/logo-redes/facebook.png";
