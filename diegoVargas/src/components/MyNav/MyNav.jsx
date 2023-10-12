@@ -1,5 +1,4 @@
 import React from "react";
-
 import logoEquipo from "../../assets/logos/logoEquipo.svg";
 import logoSuela from "../../assets/logos/LogoSuelaNav.svg";
 import logoFace from "../../assets/logo-redes/facebook.png";

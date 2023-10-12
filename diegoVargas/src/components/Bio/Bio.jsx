@@ -1,5 +1,6 @@
 import React from "react";
 import canchaTermica from "../../assets/images/canchaTermica.svg";
+import diegoPisada from "../../assets/player/diegoPisada.png";
 export default function Bio() {
   return (
     <div>
@@ -8,7 +9,7 @@ export default function Bio() {
       </div>
       <div className="bg-white text-black rounded-lg p-2">
         <span className="text-xl">DIEGO VARGAS</span>
-        <div className="flex">
+        <div className="flex gap-2">
           <div>
             <section>
               <span className="text-sm font-semibold">NACIMIENTO </span>{" "}
@@ -20,7 +21,6 @@ export default function Bio() {
             <section>
               <span className="text-sm font-semibold">PAIS </span>{" "}
               <span className="text-sm text-red-500 font-semibold">
-                {" "}
                 ARGENTINA
               </span>
             </section>
@@ -31,15 +31,35 @@ export default function Bio() {
             <section>
               <span className="text-sm font-semibold">POSICIÓN </span>{" "}
               <span className="text-sm text-red-500 font-semibold">
-                {" "}
                 PIVOTE/ALA
               </span>
             </section>
           </div>
 
-          <div className="">
-            <img src={canchaTermica} alt="" className="w-32" />
+          <div className="flex justify-start">
+            <img
+              src={diegoPisada}
+              alt=""
+              className="w-14 drop-shadow-2xl object-cover"
+            />
+            <img
+              src={canchaTermica}
+              alt=""
+              className="w-36 drop-shadow-2xl object-cover"
+            />
           </div>
+        </div>
+        <div>
+          <section>
+            <span className="text-sm font-semibold">SELECCIÓN NACIONAL </span>{" "}
+            <span className="text-sm text-red-500 font-semibold">2023</span>
+            <div><span>SELECCIÓN ARGENTINA C.A.F.S</span></div>
+          </section>
+          <section>
+            <span className="text-sm font-semibold">SELECCIÓN PROVINCIAL </span>{" "}
+            <span className="text-sm text-red-500 font-semibold">2023</span>
+            <div><span>COMODORO RIVADAVIA</span></div>
+          </section>
         </div>
       </div>
     </div>
