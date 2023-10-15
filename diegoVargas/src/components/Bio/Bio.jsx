@@ -1,5 +1,5 @@
 import React from "react";
-import canchaTermica from "../../assets/images/canchaTermica.svg";
+import canchaTermica from "../../assets/images/canchaTermica.png";
 import diegoPisada from "../../assets/player/diegoPisada.png";
 export default function Bio() {
   return (
