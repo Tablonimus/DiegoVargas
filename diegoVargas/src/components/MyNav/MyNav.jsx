@@ -6,36 +6,38 @@ import instaScratch from "../../assets/logo-redes/instagramScratch.png";
 
 export default function MyNav() {
   return (
-    <div className="absolute top-0 w-screen flex flex-col items-center gap-3 p-2 z-30 ">
-      <div className="w-11/12 flex justify-center items-center gap-5 bg-black py-2 px-5 rounded-lg h-8 text-[10px]">
-        <button>VIDEO</button>
-        <button>BIOGRAFIA</button>
-        <button>FOTOGRAFIAS</button>
-        {/* <button>ENTREVISTAS</button> */}
-        <button>SUELA PRODUCCIONES</button>
+    <div className="absolute w-full flex flex-col items-center gap-3 p-2 z-50 ">
+      <div className="z-50  w-11/12 flex justify-center items-center gap-5 bg-black py-2 px-5 rounded-lg h-10 md:h-14 md:text-lg text-[10px]">
+        <button className="hover:bg-gray-800 h-full rounded-lg px-1">
+          <a href="#bio">BIOGRAFÍA</a>
+        </button>
+        <button className="hover:bg-gray-800 h-full rounded-lg px-1">
+          <a href="#video">VIDEO</a>
+        </button>
+        <button className="hover:bg-gray-800 h-full rounded-lg px-1">
+          <a href="#images">FOTOGRAFÍAS</a>
+        </button>
+        <button className="hover:bg-gray-800 h-full rounded-lg px-1">
+          <a href="#suela">SUELA PRODUCCIONES</a>
+        </button>
       </div>
 
-      <div className="w-full flex justify-between items-center px-5  h-16 bg-white rounded-lg ">
+      <div className=" w-full flex justify-between items-center px-5   h-16 md:h-24 bg-white rounded-lg ">
         <div className="w-1/3">
-          <img src={logoSuela} alt="" className="w-10" />
+          <img src={logoSuela} alt="" className="w-10 md:w-16" />
         </div>
         <div className="w-1/3 flex justify-center">
           {" "}
-          <img src={logoEquipo} alt="" className="w-10" />
+          <img src={logoEquipo} alt="" className="w-10 md:w-16" />
         </div>
         <div className="w-1/3 flex justify-end items-center gap-1">
           <button>
-            <img src={instaScratch} alt="" className="w-5 h-5 object-cover" />
+            <img src={instaScratch} alt="" className="w-5 h-5 md:w-10 md:h-10 object-cover" />
           </button>
           <button>
-            <img src={logoFace} alt="" className="w-5 h-5 object-cover" />
+            <img src={logoFace} alt="" className="w-5 h-5  md:w-8 md:h-8 object-cover" />
           </button>
-          <button>
-            <img src={instaScratch} alt="" className="w-5 h-5 object-cover" />
-          </button>
-          <button>
-            <img src={logoFace} alt="" className="w-5 h-5 object-cover" />
-          </button>
+      
         </div>
       </div>
     </div>

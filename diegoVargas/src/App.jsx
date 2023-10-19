@@ -9,10 +9,12 @@ function App() {
 
   return (
     <BrowserRouter>
+    
       <MyNav />
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>
+  
     </BrowserRouter>
   );
 }
