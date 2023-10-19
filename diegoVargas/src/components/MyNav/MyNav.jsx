@@ -36,7 +36,7 @@ export default function MyNav() {
               <img
                 src={instaScratch}
                 alt=""
-                className="w-5 h-5 md:w-14 md:h-14 object-cover"
+                className="w-8 h-8 md:w-14 md:h-14 object-cover"
               />
 
               <span className="text-[0.6em] md:text-sm"> @vargasdiegoo_</span>
