@@ -7,7 +7,7 @@ import instaScratch from "../../assets/logo-redes/instagramScratch.png";
 export default function MyNav() {
   return (
     <div className="absolute w-full flex flex-col items-center gap-3 p-2 z-50 ">
-      <div className="z-50  w-11/12 flex justify-center items-center gap-5 bg-black py-2 px-5 rounded-lg h-10 md:h-14 md:text-lg text-[10px]">
+      <div className="fixed z-50 w-11/12 flex justify-center items-center gap-5 bg-black/80 py-2 px-5 rounded-lg h-10 md:h-14 md:text-lg text-[10px]">
         <button className="hover:bg-gray-800 h-full rounded-lg px-1">
           <a href="#bio">BIOGRAFÍA</a>
         </button>
@@ -22,7 +22,7 @@ export default function MyNav() {
         </button>
       </div>
 
-      <div className=" w-full flex justify-between items-center px-5   h-16 md:h-24 bg-white rounded-lg ">
+      <div className=" w-full flex justify-between items-center px-5 mt-12 md:mt-16  h-16 md:h-24 bg-white rounded-lg ">
         <div className="w-1/3">
           <img src={logoSuela} alt="" className="w-10 md:w-16" />
         </div>
