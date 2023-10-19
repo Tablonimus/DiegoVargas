@@ -7,7 +7,7 @@ import instaScratch from "../../assets/logo-redes/instagramScratch.png";
 export default function MyNav() {
   return (
     <div className="absolute w-full flex flex-col items-center gap-3 p-2 z-50 ">
-      <div className="fixed z-50 w-11/12 flex justify-center items-center gap-5 bg-black/80 py-2 px-5 rounded-lg h-10 md:h-14 md:text-lg text-[10px]">
+      <div className="fixed z-50 w-11/12 flex justify-center items-center gap-5 bg-black/80 py-2 px-4 rounded-lg h-10 md:h-14 md:text-lg text-[10px]">
         <button className="hover:bg-gray-800 h-full rounded-lg px-1">
           <a href="#bio">BIOGRAFÍA</a>
         </button>
