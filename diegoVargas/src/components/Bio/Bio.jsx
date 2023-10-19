@@ -1,9 +1,8 @@
 import React from "react";
 import canchaTermica from "../../assets/images/canchaTermica.png";
-import cafs from "../../assets/logos/logo-CAFS.png";
-import cfsp from "../../assets/logos/logo-CFSP.png";
+
 import arg from "../../assets/logos/banderaArgentina.png";
-import "./bioStyles.css";
+
 
 export default function Bio() {
   return (

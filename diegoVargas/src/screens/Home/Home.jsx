@@ -1,14 +1,14 @@
 import React from "react";
 import diegoEspalda from "../../assets/player/diegoEspalda.png";
 import diegoPelota1 from "../../assets/player/diegoPelota1.png";
-
-import "./homeStyles.css";
 import Bio from "../../components/Bio/Bio";
 import Video from "../../components/Video/Video";
 import Images from "../../components/Images/Images";
 import diegoText from "../../assets/images/diegoText.png";
 import Honors from "../../components/Honors/Honors";
 import AboutUs from "../../components/AboutUs/AboutUs";
+import "./homeStyles.css";
+
 export default function Home() {
   return (
     <div className="background-fix">
@@ -38,13 +38,13 @@ export default function Home() {
         </div>
       </div>
       {/* ---SECCIONES-------- */}
-      <scroll-container >
+      <scroll-container>
         <div className="flex flex-col  bg-black/50 px-4 pb-14 lg:px-96 gap-5 z-40">
           <Bio />
           <Honors />
           <Video />
           <Images />
-          <AboutUs/>
+          <AboutUs />
         </div>
       </scroll-container>
     </div>

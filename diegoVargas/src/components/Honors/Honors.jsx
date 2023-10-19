@@ -10,7 +10,7 @@ export default function Honors() {
       <div className="p-2">
         <span className="font-bold ">PALMARÉS</span>
       </div>
-      <div className="text-black  bg-white/80   rounded-lg p-2 md:p-4">
+      <div className="text-black  bg-white/50   rounded-lg p-2 md:p-4">
         <div className="flex flex-col gap-2 rounded-lg">
           {/* Selecciones */}
           <div className="honor-card flex  flex-col items-center rounded-lg py-2 ">
