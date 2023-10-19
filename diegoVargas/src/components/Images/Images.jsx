@@ -17,27 +17,27 @@ export default function Images() {
           <img
             src={dv1}
             alt=""
-            className=" object-cover md:object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
+            className=" object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
           />
           <img
             src={dv2}
             alt=""
-            className=" object-cover md:object-contain w-96 h-96 w-96 h-96 md:h-full md:w-full rounded-2xl"
+            className=" object-contain w-96 h-96 w-96 h-96 md:h-full md:w-full rounded-2xl"
           />
           <img
             src={dv3}
             alt=""
-            className=" object-cover md:object-contain w-96 h-96 md:h-full md:w-full  rounded-2xl"
+            className=" object-contain w-96 h-96 md:h-full md:w-full  rounded-2xl"
           />
           <img
             src={dv4}
             alt=""
-            className=" object-cover md:object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
+            className=" object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
           />
           <img
             src={dv5}
             alt=""
-            className=" object-cover md:object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
+            className=" object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
           />
         </Carousel>
       </div>

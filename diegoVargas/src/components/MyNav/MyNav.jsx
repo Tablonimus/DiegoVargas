@@ -22,7 +22,7 @@ export default function MyNav() {
         </button>
       </div>
 
-      <div className=" w-full flex justify-between items-center px-5 mt-12 md:mt-16  h-16 md:h-24 bg-white rounded-lg ">
+      <div className=" w-full flex justify-between items-center px-5 md:px-10 mt-12 md:mt-16  h-16 md:h-24 bg-white rounded-lg ">
         <div className="w-1/3">
           <img src={logoSuela} alt="" className="w-10 md:w-16" />
         </div>
@@ -31,13 +31,17 @@ export default function MyNav() {
           <img src={logoEquipo} alt="" className="w-10 md:w-16" />
         </div>
         <div className="w-1/3 flex justify-end items-center gap-1">
-          <button>
-            <img src={instaScratch} alt="" className="w-5 h-5 md:w-10 md:h-10 object-cover" />
-          </button>
-          <button>
-            <img src={logoFace} alt="" className="w-5 h-5  md:w-8 md:h-8 object-cover" />
-          </button>
-      
+          <a href="https://www.instagram.com/vargasdiegoo_" target="_blank">
+            <button className="text-black flex flex-col items-center">
+              <img
+                src={instaScratch}
+                alt=""
+                className="w-5 h-5 md:w-14 md:h-14 object-cover"
+              />
+
+              <span className="text-[0.6em] md:text-sm"> @vargasdiegoo_</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

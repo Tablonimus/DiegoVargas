@@ -1,5 +1,5 @@
 import React from "react";
-import diegoEspalda from "../../assets/player/diegoEspalda.png";
+import diegoEspalda from "../../assets/player/diegoEspalda.svg";
 import diegoPelota1 from "../../assets/player/diegoPelota1.png";
 import Bio from "../../components/Bio/Bio";
 import Video from "../../components/Video/Video";
@@ -32,7 +32,7 @@ export default function Home() {
             <img
               src={diegoEspalda}
               alt=""
-              className="fade-in-espalda  absolute bottom-[-1em] md:bottom-[-2em] right-0 md:right-24 z-10 w-80 lg:w-1/3 grayscale  drop-shadow-2xl "
+              className="fade-in-espalda  absolute bottom-[-1em] md:bottom-[-2em] right-0 md:right-24 z-10 w-80 lg:w-1/3 grayscale  "
             />
           </div>
         </div>
