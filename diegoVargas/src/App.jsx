@@ -1,11 +1,10 @@
-import { useState } from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./screens/Home/Home";
 import MyNav from "./components/MyNav/MyNav";
 
 function App() {
-  const [count, setCount] = useState(0);
+ 
 
   return (
     <BrowserRouter>

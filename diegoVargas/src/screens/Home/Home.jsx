@@ -32,7 +32,7 @@ export default function Home() {
             <img
               src={diegoEspalda}
               alt=""
-              className="fade-in-espalda  absolute bottom-[-14em] md:bottom-[-10.5em] right-[-4em] md:right-[0em] z-10  object-contain w-[50em] h-[50em] lg:w-[50em] lg:h-[60em] grayscale  "
+              className="fade-in-espalda  absolute bottom-[-14.9em] md:bottom-[-10.5em] right-[-4em] md:right-[0em] z-10  object-contain w-[50em] h-[50em] lg:w-[50em] lg:h-[60em] grayscale  "
             />
           </div>
         </div>

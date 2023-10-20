@@ -1,8 +1,7 @@
 import React from "react";
 import logoEquipo from "../../assets/logos/logoEquipo.svg";
 import logoSuela from "../../assets/logos/LogoSuelaNav.svg";
-import logoFace from "../../assets/logo-redes/facebook.png";
-import instaScratch from "../../assets/logo-redes/instagramScratch.png";
+import instaScratch from "../../assets/logos/instagramScratch.png";
 
 export default function MyNav() {
   return (

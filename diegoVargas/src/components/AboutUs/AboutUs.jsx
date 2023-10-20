@@ -1,7 +1,6 @@
 import React from "react";
 import dv2 from "../../assets/player/diegoMockUpL.png";
 import dv3 from "../../assets/player/diegoMockUpR.png";
-import dv4 from "../../assets/carousel/dv2.jpg";
 import logoSuela from "../../assets/logos/LogoSuelaNav.svg";
 
 export default function AboutUs() {

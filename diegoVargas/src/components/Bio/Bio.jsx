@@ -1,6 +1,5 @@
 import React from "react";
 import canchaTermica from "../../assets/images/canchaTermica.png";
-
 import arg from "../../assets/logos/banderaArgentina.png";
 
 
