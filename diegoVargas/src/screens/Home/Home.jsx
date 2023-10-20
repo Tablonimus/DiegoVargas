@@ -1,5 +1,5 @@
 import React from "react";
-import diegoEspalda from "../../assets/player/diegoEspalda.svg";
+import diegoEspalda from "../../assets/player/diegoEspaldaZip.png";
 import diegoPelota1 from "../../assets/player/diegoPelota1.png";
 import Bio from "../../components/Bio/Bio";
 import Video from "../../components/Video/Video";
@@ -22,7 +22,7 @@ export default function Home() {
               className="sticky ml-2 w-2/3 lg:w-1/3"
             />
           </div>
-          <div className=" flex justify-center px-5 py-10">
+          <div className=" flex justify-center px-5 py-10 overflow-x-auto">
             <img
               src={diegoPelota1}
               alt=""
@@ -32,7 +32,7 @@ export default function Home() {
             <img
               src={diegoEspalda}
               alt=""
-              className="fade-in-espalda  absolute bottom-[-1em] md:bottom-[-2em] right-0 md:right-24 z-10 w-80 lg:w-1/3 grayscale  "
+              className="fade-in-espalda  absolute bottom-[-14em] md:bottom-[-10.5em] right-[-4em] md:right-[0em] z-10  object-contain w-[50em] h-[50em] lg:w-[50em] lg:h-[60em] grayscale  "
             />
           </div>
         </div>
