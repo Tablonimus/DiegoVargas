@@ -80,7 +80,7 @@ export default function Honors() {
                 <div>
                   🏆
                   <span className="text-[0.6em] md:text-lg ">
-                    Copa Nacional Puerto Madryn 2022
+                    Copa Nacional P Madryn 2022
                   </span>
                 </div>
               </section>
