@@ -54,71 +54,79 @@ export default function Honors() {
             <span className="text-[0.7em] md:text-xl  font-semibold">
               Flamengo
             </span>{" "}
-            <div className="flex">
-              <section className="w-1/2">
+            <div className="flex w-full md:gap-5">
+              <section className="w-1/2 flex flex-col items-center md:pl-36 gap-2">
                 <span className="text-[0.6em] md:text-lg  font-semibold">
                   Torneos Nacionales{" "}
                 </span>{" "}
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">
-                    División de Honor 2019
-                  </span>
-                </div>
-                <div>
-                  🥉
-                  <span className="text-[0.6em] md:text-lg ">
-                    3° puesto DH 2022
-                  </span>
-                </div>
-                <div>
-                  🥈
-                  <span className="text-[0.6em] md:text-lg ">
-                    2° puesto DH 2023
-                  </span>
-                </div>
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">
-                    Copa Nacional 2022
-                  </span>
+                <div className="">
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      División de Honor 2019
+                    </span>
+                  </div>
+                  <div>
+                    🥉
+                    <span className="text-[0.6em] md:text-lg ">
+                      3° puesto DH 2022
+                    </span>
+                  </div>
+                  <div>
+                    🥈
+                    <span className="text-[0.6em] md:text-lg ">
+                      2° puesto DH 2023
+                    </span>
+                  </div>
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      Copa Nacional 2022
+                    </span>
+                  </div>
                 </div>
               </section>
-              <section className="w-1/2">
+              <section className="w-1/2  md:pr-36 flex flex-col items-center gap-2">
                 <span className="text-[0.6em] md:text-lg  font-semibold">
                   Torneos Locales
                 </span>{" "}
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">Clausura 16</span>
-                </div>
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">
-                    Apertura y Clausura 17'
-                  </span>
-                </div>
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">
-                    Apertura y Clausura 18'
-                  </span>
-                </div>
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">
-                    Apertura y Clausura 21'
-                  </span>
-                </div>
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">
-                    Apertura y Clausura 22'
-                  </span>
-                </div>
-                <div>
-                  🏆
-                  <span className="text-[0.6em] md:text-lg ">Apertura 23'</span>
+                <div className="">
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      Clausura 16'
+                    </span>
+                  </div>
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      Apertura y Clausura 17'
+                    </span>
+                  </div>
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      Apertura y Clausura 18'
+                    </span>
+                  </div>
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      Apertura y Clausura 21'
+                    </span>
+                  </div>
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      Apertura y Clausura 22'
+                    </span>
+                  </div>
+                  <div>
+                    🏆
+                    <span className="text-[0.6em] md:text-lg ">
+                      Apertura 23'
+                    </span>
+                  </div>
                 </div>
               </section>
             </div>
