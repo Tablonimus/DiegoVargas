@@ -1,21 +1,10 @@
-/* .main-container{
 
-    background-image: url("../../assets/logos/flamengo.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size:auto;
-    background-attachment: fixed;
-   
-
-} */
 .path {
   clip-path: polygon(50% 0%, 100% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 0);
 }
 
 .background-fix {
   background-image: url(../../assets/logos/flamengo.png);
-  /* background-position: center; */
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;

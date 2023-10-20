@@ -5,6 +5,7 @@ import dv2 from "../../assets/carousel/dv2.jpg";
 import dv3 from "../../assets/carousel/dv3.jpg";
 import dv4 from "../../assets/carousel/dv4.jpg";
 import dv5 from "../../assets/carousel/dv5.jpg";
+import dv6 from "../../assets/carousel/dv6.jpg";
 
 export default function Images() {
   return (
@@ -25,11 +26,6 @@ export default function Images() {
             className=" object-contain w-96 h-96 w-96 h-96 md:h-full md:w-full rounded-2xl"
           />
           <img
-            src={dv3}
-            alt=""
-            className=" object-contain w-96 h-96 md:h-full md:w-full  rounded-2xl"
-          />
-          <img
             src={dv4}
             alt=""
             className=" object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
@@ -38,6 +34,16 @@ export default function Images() {
             src={dv5}
             alt=""
             className=" object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
+          />
+          <img
+            src={dv6}
+            alt=""
+            className=" object-contain w-96 h-96 md:h-full md:w-full rounded-2xl"
+          />
+          <img
+            src={dv3}
+            alt=""
+            className=" object-contain w-96 h-96 md:h-full md:w-full  rounded-2xl"
           />
         </Carousel>
       </div>

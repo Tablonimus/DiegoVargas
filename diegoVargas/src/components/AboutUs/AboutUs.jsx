@@ -41,7 +41,7 @@ export default function AboutUs() {
           <img
             src={dv3}
             alt=""
-            className="absolute right-[-7em] md:right-[-18em] bottom-[1em] md:bottom-[-0.5em] md:h-[25em]  h-40 object-contain rounded-lg drop-shadow-2xl"
+            className="absolute right-[-2.2em] md:right-[-6em] bottom-[1.5em] md:bottom-[2em] md:h-[20em]  h-36 object-contain rounded-lg drop-shadow-2xl"
           />
         </div>
       </div>
