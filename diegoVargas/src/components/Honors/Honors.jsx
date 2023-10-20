@@ -68,19 +68,19 @@ export default function Honors() {
                 <div>
                   🥉
                   <span className="text-[0.6em] md:text-lg ">
-                    3° puesto Formosa 2022
+                    3° puesto DH 2022
                   </span>
                 </div>
                 <div>
                   🥈
                   <span className="text-[0.6em] md:text-lg ">
-                    Subcampeonato 2023
+                    2° puesto DH 2023
                   </span>
                 </div>
                 <div>
                   🏆
                   <span className="text-[0.6em] md:text-lg ">
-                    Nacional P Madryn 2022
+                    Copa Nacional 2022
                   </span>
                 </div>
               </section>
